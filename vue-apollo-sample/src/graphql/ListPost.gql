@@ -1,0 +1,11 @@
+#import "./PostFragment.gql"
+query listPosts($request: ListPostRequest!){
+  listPosts(request: $request){
+    count
+    page
+    limit
+    nodes{
+      ...Post
+    }
+	}
+}

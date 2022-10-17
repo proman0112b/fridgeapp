@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "config": "^3.3.8",
+    "dotenv": "^16.0.2"
+  }
+}

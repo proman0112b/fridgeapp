@@ -1,0 +1,6 @@
+#import "./PostFragment.gql"
+mutation addPost($request: AddPostRequest!){
+  addPost(request: $request) {
+    ...Post 
+  }
+}
